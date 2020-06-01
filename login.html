@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LoginCumRegistration</title>
+</head>
+<body>
+    
+
+<div mbsc-form>
+    <div class="mbsc-align-center">
+        <div class="mbsc-note mbsc-note-primary">Use the popup for pop-up register and login forms.</div>
+    </div>
+    <div class="mbsc-form-group">
+        <div class="mbsc-btn-group-block">
+            <button mbsc-button id="showRegister">Show register form</button>
+            <button mbsc-button id="showLogin">Show login form</button>
+        </div>
+    </div>
+</div>
+
+<div id="demo" class="mbsc-cloak">
+    <div mbsc-form>
+        <div class="mbsc-form-group-inset">
+            <label>
+                <input mbsc-input type="text" name="name" placeholder="Name" />
+            </label>
+            <label>
+                <input mbsc-input type="text" name="email" placeholder="Email" />
+            </label>
+            <label>
+                <input mbsc-input name="password" type="text" placeholder="Password" data-password-toggle="true" data-icon-show="eye" data-icon-hide="eye-blocked" />
+            </label>
+        </div>
+    </div>
+</div>
+
+<div id="login" class="mbsc-cloak">
+    <div mbsc-form>
+        <div class="mbsc-form-group-inset">
+            <label>
+                <input mbsc-input type="text" name="email" placeholder="Email" />
+            </label>
+            <label>
+                <input mbsc-input name="password" type="text" placeholder="Password" data-password-toggle="true" data-icon-show="eye" data-icon-hide="eye-blocked" />
+            </label>
+        </div>
+        <div class="mbsc-align-center">or log in with one of your existing accounts</div>
+        <div class="mbsc-form-group-inset">
+            <button mbsc-button class="md-social-btn mbsc-btn-block" style="background:#3c5c9a;color:#fff;">
+                <span class="mbsc-ic mbsc-ic-ion-social-facebook mbsc-pull-left"></span>
+                Log in with Facebook
+            </button>
+            <button mbsc-button class="md-social-btn mbsc-btn-block" style="background:#28aae1;color:#fff;">
+                <span class="mbsc-ic mbsc-ic-fa-twitter mbsc-pull-left"></span>
+                Log in with Twitter
+            </button>
+            <button mbsc-button class="md-social-btn mbsc-btn-block" style="background:#d34230;color:#fff;">
+                <span class="mbsc-ic mbsc-ic-fa-google mbsc-pull-left"></span>
+                Log in with Google
+            </button>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
